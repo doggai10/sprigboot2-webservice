@@ -8,8 +8,8 @@ REPOSITORY=/home/ec2-user/app/step3
 PROJECT_NAME=springboot2-webservice
 
 echo "> Build 파일 복사"
-echo "> cp $REPOSITORY/zip/*.jar $REPOSITORY/"
-#echo "cp $REPOSITORY/$PROJECT_NAME/build/libs/*.jar $REPOSITORY/"
+echo "cp $REPOSITORY/$PROJECT_NAME/build/libs/*.jar $REPOSITORY/"
+#echo "> cp $REPOSITORY/zip/*.jar $REPOSITORY/"
 
 cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
