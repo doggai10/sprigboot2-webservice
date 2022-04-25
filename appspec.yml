@@ -4,7 +4,7 @@ version: 0.0
 os: linux 
 files: 
   - source: / 
-    destination: /home/ec2-user/app/step2/sprigboot2-webservice 
+    destination: /home/ec2-user/app/step2/springboot2-webservice
     overwrite: yes 
 
 permissions: 
